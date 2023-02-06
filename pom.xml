@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>concurrent-test</artifactId>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>5.1.8.RELEASE</version>
+		</dependency>
+<!--        <dependency>-->
+<!--            <groupId>JEECG-os-repository-3.6.5-20160718.JEECG-os-repository.com.google.guava</groupId>-->
+<!--            <artifactId>guava</artifactId>-->
+<!--            <version>16.0.1</version>-->
+<!--        </dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>JEECG-os-repository-3.6.5-20160718.JEECG-os-repository.com.google.guava</groupId>-->
+<!--			<artifactId>guava</artifactId>-->
+<!--			<version>16.0.1</version>-->
+<!--		</dependency>-->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>25.0-jre</version>
+		</dependency>
+	</dependencies>
+	<groupId>com.xingy.concurrent</groupId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>concurrent-test</name>
+	<description>Demo project for Spring Boot</description>
+
+</project>
