@@ -1,6 +1,9 @@
 package com.xingy.concurrent.cyclicBarrier;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.CyclicBarrier;
+import java.util.stream.Collectors;
 
 /**
  * @author xinguiyuan
@@ -26,6 +29,7 @@ public class CyclicBarrierExample {
 
         new Thread(cyclicBarrierRunnable).start();
         new Thread(cyclicBarrierRunnable).start();
+        List<String> list = new ArrayList<>();
 
     }
 }

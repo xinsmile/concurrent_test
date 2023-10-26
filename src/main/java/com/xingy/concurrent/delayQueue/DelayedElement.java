@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
  * @author xinguiyuan
  * @className com.xingy.concurrent.delayQueue.DelayedElement
  * @date 2019/07/29 15:21
- * @description DelayQueue 对元素进行持有知道一个特定的延迟到期。注入其中的元素必须实现 concurrent.Delay 接口
+ * @description DelayQueue 对元素进行持有直到一个特定的延迟到期。注入其中的元素必须实现 concurrent.Delay 接口
  */
 public class DelayedElement implements Delayed {
 
